@@ -13,6 +13,7 @@ body {
     width: 100%;
     position: absolute;
     height: 50vh;
+    z-index: -1;
 }
 
 #main-box {
@@ -20,9 +21,14 @@ body {
     height: 775px;
     background-color: white;
     position: relative;
-    margin: 0 auto;
-    top: 10vh;
     border-radius: 25px;
+}
+
+.center-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-image {
